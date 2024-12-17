@@ -1,0 +1,19 @@
+{
+  "name": "note-taker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "alpinejs": "^3.14.7",
+    "jsstore": "^4.8.4"
+  }
+}

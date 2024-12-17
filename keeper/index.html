@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Notaker</title>
+  </head>
+  <body class="center">
+    <main>
+      <div class="topbar">
+        <h1>Notaker</h1>
+        <ul>
+          <li>
+            <button type="button" class="rect no">Delete All</button>
+          </li>
+        </ul>
+      </div>
+
+      <section>
+        <div class="labels">
+          <div class="topbar">
+            <h2>Labels</h2>
+
+            <ul>
+              <li>
+                <button type="button" class="rect ok">Add</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="list-labels">
+            <li>
+              <span>Note title will come here</span>
+            </li>
+            <li>
+              <span>Note title will come here</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="notes">
+          <div class="topbar">
+            <h2>Notes label come here</h2>
+
+            <ul>
+              <li>
+                <button type="button" class="rect ok">Edit</button>
+              </li>
+              <li>
+                <button type="button" class="rect no">Delete</button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+              harum consequuntur autem repellat, fuga corporis placeat ipsa
+              delectus dignissimos laborum saepe. Aut non quaerat dolore
+              doloribus ex hic voluptatem sed.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <form action="#" method="post" class="create-form center">
+        <div class="form-card">
+          <h2>Create A Note</h2>
+
+          <div class="inputs">
+            <label for="label">Note label</label>
+            <input
+              type="text"
+              id="label"
+              name="label"
+              placeholder="The note label here"
+            />
+          </div>
+
+          <div class="inputs">
+            <label for="note">Note content</label>
+            <textarea
+              name="note"
+              id="note"
+              placeholder="Your note content here"
+            ></textarea>
+          </div>
+
+          <div class="buttons">
+            <button type="submit" class="rect ok">Add note</button>
+            <button type="button" class="rect no">Dismiss</button>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
